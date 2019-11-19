@@ -3,6 +3,9 @@ package work;
 import java.util.ArrayList;
 
 public class ArrayStack<E> {
+    public static void main(String[] args) {
+        System.out.println("测试");
+    }
     private ArrayList arrayList = new ArrayList();
 
     public E push(E e){
